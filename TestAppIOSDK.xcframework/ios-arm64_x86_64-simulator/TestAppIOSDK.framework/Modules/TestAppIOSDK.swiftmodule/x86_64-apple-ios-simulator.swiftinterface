@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TestAppIOSDK
+import AVFoundation
+import AVKit
+import CoreGraphics
+import CoreMedia
+import FileProvider
+import Foundation
+import Photos
+import PhotosUI
+import ReplayKit
+import Security
+import Swift
+import SwiftUI
+import UIKit
+import UserNotifications
+import _Concurrency
+public struct TestAppConfiguration {
+  public init(appId: Swift.String, apiToken: Swift.String, userId: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class TestAppio {
+  @objc deinit
+}
+extension TestAppIOSDK.TestAppio {
+  public static func show()
+  public static func hide()
+  public static func setup(with configuration: TestAppIOSDK.TestAppConfiguration)
+  @available(iOS 13.0, *)
+  public static func setup(scene: UIKit.UIWindowScene, configuration: TestAppIOSDK.TestAppConfiguration)
+  public static func identify(userId: Swift.String, completion: @escaping (Swift.Error?) -> ())
+}
+extension UIKit.UIControl.State : Swift.Hashable {
+}
