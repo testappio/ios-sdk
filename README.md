@@ -1,4 +1,4 @@
-# TestAppIOSDK
+# TestApp.io iOS SDK v1.0
 
 Setup
 =====
@@ -22,7 +22,7 @@ pod 'TestAppIODSK', :git => 'https://github.com/testappio/ios-sdk.git'
 Required fields in Info.plist file:
 -----------------------------------
 
-TestAppio SDK requires access to camera roll, to save and get screen recordings and images.
+TestApp.io SDK requires access to camera roll, to save and get screen recordings and images.
 
 Add these fields to Info.plist if you don't have them already:
 
@@ -54,13 +54,14 @@ TestAppio.setup(
 TestAppio.setup(
   scene: windowScene,
   configuration: .init(
-    appId: "<APP ID>",
-    apiToken: "<API TOKEN>",
-    userId: "<USER ID>"
+    appId: "<TestApp.io APP ID>",
+    apiToken: "<TestApp.io API TOKEN>",
+    userId: "<YOUR USER ID>"
   )
 )
 ```
 
+> Collect `appId` and `apiToken` from your app page at [https://portal.testapp.io/apps](https://portal.testapp.io/apps?action=select-for-integrations)
   
 
 ### Identifying the user:
@@ -69,7 +70,7 @@ If the user identity has changed after you initialise the sdk, you can use `iden
 
 ```swift
 TestAppio.identify(
-  userId: "<NEW USER ID>",
+  userId: "<YOUR USER ID>",
   completion: errorHandler
 )
 ```
