@@ -88,7 +88,7 @@ TestAppio.identify(
   email: "joe@doe.com",
   traits: ["role": "iOS Developer", "verified": "true", "level": "10"],
   completion: { _ in }
-        )
+)
 ```
 
 ### Control the SDK overlay:
