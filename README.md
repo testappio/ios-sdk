@@ -38,27 +38,12 @@ Usage:
 
 ### Launching the SDK:
 
-#### Pre iOS 13:
-
-```swift
-TestAppio.setup(
-  configuration: .init(
-    appId: "<TestApp.io APP ID>",
-    apiToken: "<TestApp.io API TOKEN>",
-    userId: "<USER ID>"
-  )
-)
-```
-
-#### iOS 13 and up:
-
 ```swift
 TestAppio.setup(
   scene: windowScene,
   configuration: .init(
     appId: "<TestApp.io APP_ID>",
-    apiToken: "<TestApp.io API_TOKEN>",
-    userId: "<YOUR USER ID>"
+    apiToken: "<TestApp.io API_TOKEN>"
   )
 )
 ```
@@ -97,7 +82,6 @@ TestAppio.identify(
 TestAppio.show()
 TestAppio.hide()
 ```
-
 
 ----------
 <img width="906" alt="Screen Shot 2022-12-04 at 12 02 06 AM" src="https://user-images.githubusercontent.com/3076722/205459620-2f0642a2-3167-4279-9846-779af735f427.png">
