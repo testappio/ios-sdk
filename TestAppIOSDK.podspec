@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.swift_version      = "5.3"
 
   # Supported deployment targets
-  spec.ios.deployment_target  = "11.0"
+  spec.ios.deployment_target  = "13.0"
 
   # Published binaries
   spec.vendored_frameworks = "TestAppIOSDK.xcframework"
