@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		gnSDbIG1Nws64wMH6LA00U/2LRI=
+		6nSD6GEib5MwC3g3vKaXvSh5x2g=
 		</data>
 		<key>Headers/TestAppIOSDK-Swift.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		26DDh3VSkXaOYDZbxyPKzGvtFkw=
+		thzI9K3Gs/4kcaa3FHOUNQABsw8=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		7OSURrFtdUc4ebav+kv65zye6OI=
+		x3XohLF/g7mEv5KG95LJMfK0VB0=
 		</data>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BReonsJCaaYTgKVuBinLOS2ezVs=
+		zupkOH438rJwaV+FyIZ9pkJIfA8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ut5anx2h15xHoCBsCPixv9fHPJJggtnXhIb1pPZBYf0=
+			4FKFOeinrXickyhlNc/kHISFHch5SgBjbUDD7QALuUo=
 			</data>
 		</dict>
 		<key>Headers/TestAppIOSDK-Swift.h</key>
@@ -72,7 +72,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U8qLbHoZPjYHUkQe5yade7hxtOOr35Iygkhd0tcuwqg=
+			UpqFsicw5ckEFOp48gftwb+isU9+L+EIuINPO0QDPfg=
 			</data>
 		</dict>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Uwkt8SFoPElC8EdgmQ2YbJl5dbe29TzfyeFNFzwHNo=
+			PyvvceKe3yEyk24364d2P5eATyWvZERUUEvsSmCcZQ0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -5126,97 +5126,125 @@
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "StringLiteral",
       "offset": 2258,
-      "length": 49,
-      "value": "\"1. Open the application to be tested in testapp\""
+      "length": 46,
+      "value": "\"1. Tap on recording to start testing session\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2329,
+      "offset": 2326,
       "length": 14,
       "value": "\"onboarding-1\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2368,
-      "length": 56,
-      "value": "\"2. You will see the SDK menu on top of all the windows\""
+      "offset": 2365,
+      "length": 34,
+      "value": "\"2. Annotate or take screenshoths\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2446,
+      "offset": 2421,
       "length": 14,
       "value": "\"onboarding-2\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2485,
-      "length": 42,
-      "value": "\"3. Press the \"screen recording\" button\""
+      "offset": 2460,
+      "length": 59,
+      "value": "\"3. Found a bug? End the recording to save last 30 seconds\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2549,
+      "offset": 2541,
+      "length": 14,
+      "value": "\"onboarding-2\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2580,
+      "length": 24,
+      "value": "\"4. Capture screenshots\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2626,
       "length": 14,
       "value": "\"onboarding-3\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2588,
-      "length": 58,
-      "value": "\"4. The recording menu will appear with a countdown timer\""
+      "offset": 2665,
+      "length": 30,
+      "value": "\"5. Check your feedback draft\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2668,
+      "offset": 2717,
       "length": 14,
       "value": "\"onboarding-4\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2756,
+      "length": 25,
+      "value": "\"6. Submit your feedback\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2803,
+      "length": 14,
+      "value": "\"onboarding-5\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4365,
+      "offset": 4683,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4377,
+      "offset": 4695,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4303,
+      "offset": 4621,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4664,
+      "offset": 4982,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4676,
+      "offset": 4994,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4602,
+      "offset": 4920,
       "length": 1,
       "value": "0"
     },
