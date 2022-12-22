@@ -10,20 +10,22 @@ Looking to capture valuable feedback from within your app?
 
 TestApp.io's in-app feedback tool is here to help! Easily record videos, capture screenshots, and add attachments from your device gallery. Annotate to highlight specific issues. And when you're ready, submit your feedback with device and app info to help improve the app before it's published to app stores.
 
-It's the perfect tool for collecting early feedback from testers, friends, family, colleagues, clients, QA engineers, project managers, and others, allowing developers to identify and fix issues before releasing the app to a broader audience.
-
-Ready to make your mark and help improve the app? Tap the recording button to capture your actions and any bugs or issues you encounter. When you see a problem you want to report, tap the end recording button to generate an instant replay of the last 30 seconds of footage.
-
-While recording, you can also annotate or draw on the video to highlight specific areas of concern. And if you prefer to capture a still image, tap the screenshot button to capture a screenshot of your screen. Then use the annotation tools to highlight specific areas of concern or provide more context for the developer. If you have additional attachments you'd like to include with your feedback, such as images or documents from your device gallery, you can also add them.
-
-All your recordings, screenshots, and attachments will be added to a draft for submission. When you're ready to send your feedback to the developer, tap the submit button to send your recordings, screenshots, attachments, device, app, network, CPU, and RAM information.
-
-And if you want to keep your team in the loop, you can connect the app to Slack or Microsoft Teams to receive notifications about new feedback submissions.
-
-With TestApp.io's in-app feedback tool, you can easily capture and share valuable feedback with the developer, helping to improve the app and provide a better experience for users before publishing it to app stores. So what are you waiting for? Start using TestApp.io's in-app feedback tool today and help make a difference in the quality of your app!
-
-
 > Please note that TestApp.io's in-app feedback tool is designed for development environments only and is not intended for use in the store version of the app.
+
+
+More information: https://help.testapp.io/about-sdk/
+
+
+Screenshots
+=====
+
+![1](https://user-images.githubusercontent.com/3076722/209127920-8f97c341-04fc-462c-9c39-cd777ab0928c.svg)
+![2](https://user-images.githubusercontent.com/3076722/209127994-fe804ea9-b568-4366-8fba-f9fc5598b7bf.svg)
+![3](https://user-images.githubusercontent.com/3076722/209128011-2a89017d-c34a-4732-bfe8-474d695fafeb.svg)
+![4](https://user-images.githubusercontent.com/3076722/209128048-b652b6c9-0dc0-434c-ae6e-b91de4984132.svg)
+![5](https://user-images.githubusercontent.com/3076722/209128075-4fcd3d82-2f01-4c94-a116-024fb7316085.svg)
+![6](https://user-images.githubusercontent.com/3076722/209128083-8f90bc00-5093-4021-8d0d-6d0406ec5610.svg)
+
 
 Setup
 =====
