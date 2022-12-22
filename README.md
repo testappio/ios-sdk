@@ -1,6 +1,8 @@
 # TestApp.io iOS SDK v1.0
 
-![3](https://user-images.githubusercontent.com/3076722/205459311-e2de5d4d-19c9-448d-b048-3da35d9431bd.png)
+
+[<img width="906" alt="Screen Shot 2022-12-04 at 12 02 06 AM" src="https://user-images.githubusercontent.com/3076722/205459311-e2de5d4d-19c9-448d-b048-3da35d9431bd.png">](https://help.testapp.io/about-sdk/)
+
 
 Setup
 =====
@@ -84,6 +86,17 @@ TestAppio.hide()
 ```
 
 ----------
-<img width="906" alt="Screen Shot 2022-12-04 at 12 02 06 AM" src="https://user-images.githubusercontent.com/3076722/205459620-2f0642a2-3167-4279-9846-779af735f427.png">
+
+## Feedback & Support
+
+Developers built [TestApp.io](https://testapp.io) to solve the pain of app distribution & feedback for mobile app development teams.
+
+Join our [community](https://help.testapp.io/faq/join-our-community/) for feedback and support.
+
+Check out our [Help Center](https://help.testapp.io/) for more info and other integrations.
+
+Happy feedbacking 🎉
+
+
 
 
