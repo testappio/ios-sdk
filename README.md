@@ -41,7 +41,7 @@ https://github.com/testappio/ios-sdk.git
 #### Cocoapods:
 
 ```ruby
-pod 'TestAppIODSK', :git => 'https://github.com/testappio/ios-sdk.git'
+pod 'TestAppIOSDK', :git => 'https://github.com/testappio/ios-sdk.git'
 ```
 
   
@@ -106,6 +106,23 @@ TestAppio.identify(
 ```swift
 TestAppio.show()
 TestAppio.hide()
+```
+
+----------
+
+### Log custom events and errors to the SDK:
+
+```swift
+TestAppio.log(event: Event)
+
+//exapmple
+
+TestAppio.log(
+  event: .init(
+    name: "UIViewController.didAppear", 
+    parameters: ["screen": "UserDetails", "userId": "123456"]
+  )
+)
 ```
 
 ----------
