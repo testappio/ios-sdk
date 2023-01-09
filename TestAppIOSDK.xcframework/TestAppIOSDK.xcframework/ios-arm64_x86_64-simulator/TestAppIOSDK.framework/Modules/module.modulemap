@@ -1,0 +1,4 @@
+framework module TestAppIOSDK {
+  header "TestAppIOSDK-Swift.h"
+  requires objc
+}
