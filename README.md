@@ -1,7 +1,6 @@
 # TestApp.io iOS SDK v1.0
 
-
-[<img width="906" alt="Screen Shot 2022-12-04 at 12 02 06 AM" src="https://user-images.githubusercontent.com/3076722/205459311-e2de5d4d-19c9-448d-b048-3da35d9431bd.png">](https://help.testapp.io/about-sdk/)
+[![Watch the video](https://user-images.githubusercontent.com/3076722/217676152-06c1e157-cf59-4d46-86aa-1712f9d70e8e.png)](https://testapp.io/feedback)
 
 About
 =====
@@ -13,7 +12,7 @@ TestApp.io's in-app feedback tool is here to help! Easily record videos, capture
 > Please note that TestApp.io's in-app feedback tool is designed for development environments only and is not intended for use in the store version of the app.
 
 
-More information: https://help.testapp.io/about-sdk/
+More information: https://testapp.io/feedback and https://help.testapp.io/about-sdk/
 
 
 Screenshots
