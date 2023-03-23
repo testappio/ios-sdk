@@ -16,6 +16,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TestAppIOSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestAppIOSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1408,12 +1425,67 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "TestAppIOSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "TestAppIOSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "TestAppIOSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TestAppIOSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "TestAppIOSDK"
       },
       {
         "kind": "Import",
         "name": "Security",
         "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "TestAppIOSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TestAppIOSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestAppIOSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "TestAppIOSDK"
       },
@@ -2106,17 +2178,692 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TestAppIOSDK",
+        "moduleName": "TestAppIOSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BatteryState",
+        "printedName": "BatteryState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIDevice.BatteryState]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BatteryState",
+                    "printedName": "UIKit.UIDevice.BatteryState",
+                    "usr": "c:@E@UIDeviceBatteryState"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So20UIDeviceBatteryStateV12TestAppIOSDKE8allCasesSayABGvpZ",
+            "mangledName": "$sSo20UIDeviceBatteryStateV12TestAppIOSDKE8allCasesSayABGvpZ",
+            "moduleName": "TestAppIOSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIDevice.BatteryState]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryState",
+                        "printedName": "UIKit.UIDevice.BatteryState",
+                        "usr": "c:@E@UIDeviceBatteryState"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20UIDeviceBatteryStateV12TestAppIOSDKE8allCasesSayABGvgZ",
+                "mangledName": "$sSo20UIDeviceBatteryStateV12TestAppIOSDKE8allCasesSayABGvgZ",
+                "moduleName": "TestAppIOSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIDevice.BatteryState]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryState",
+                        "printedName": "UIKit.UIDevice.BatteryState",
+                        "usr": "c:@E@UIDeviceBatteryState"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20UIDeviceBatteryStateV12TestAppIOSDKE8allCasesSayABGvsZ",
+                "mangledName": "$sSo20UIDeviceBatteryStateV12TestAppIOSDKE8allCasesSayABGvsZ",
+                "moduleName": "TestAppIOSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20UIDeviceBatteryStateV12TestAppIOSDKE8allCasesSayABGvMZ",
+                "mangledName": "$sSo20UIDeviceBatteryStateV12TestAppIOSDKE8allCasesSayABGvMZ",
+                "moduleName": "TestAppIOSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@UIDeviceBatteryState",
+        "moduleName": "UIKit",
+        "objc_name": "UIDeviceBatteryState",
         "declAttributes": [
-          "RawDocComment"
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "isFromExtension": true,
+        "enumRawTypeName": "Int",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIDevice.BatteryState]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryState",
+                        "printedName": "UIKit.UIDevice.BatteryState",
+                        "usr": "c:@E@UIDeviceBatteryState"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TestAppIOSDK"
+        "kind": "TypeDecl",
+        "name": "UIInterfaceOrientation",
+        "printedName": "UIInterfaceOrientation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIInterfaceOrientation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientation",
+                    "printedName": "UIKit.UIInterfaceOrientation",
+                    "usr": "c:@E@UIInterfaceOrientation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So22UIInterfaceOrientationV12TestAppIOSDKE8allCasesSayABGvpZ",
+            "mangledName": "$sSo22UIInterfaceOrientationV12TestAppIOSDKE8allCasesSayABGvpZ",
+            "moduleName": "TestAppIOSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIInterfaceOrientation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIInterfaceOrientation",
+                        "printedName": "UIKit.UIInterfaceOrientation",
+                        "usr": "c:@E@UIInterfaceOrientation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So22UIInterfaceOrientationV12TestAppIOSDKE8allCasesSayABGvgZ",
+                "mangledName": "$sSo22UIInterfaceOrientationV12TestAppIOSDKE8allCasesSayABGvgZ",
+                "moduleName": "TestAppIOSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIInterfaceOrientation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIInterfaceOrientation",
+                        "printedName": "UIKit.UIInterfaceOrientation",
+                        "usr": "c:@E@UIInterfaceOrientation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So22UIInterfaceOrientationV12TestAppIOSDKE8allCasesSayABGvsZ",
+                "mangledName": "$sSo22UIInterfaceOrientationV12TestAppIOSDKE8allCasesSayABGvsZ",
+                "moduleName": "TestAppIOSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So22UIInterfaceOrientationV12TestAppIOSDKE8allCasesSayABGvMZ",
+                "mangledName": "$sSo22UIInterfaceOrientationV12TestAppIOSDKE8allCasesSayABGvMZ",
+                "moduleName": "TestAppIOSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@UIInterfaceOrientation",
+        "moduleName": "UIKit",
+        "objc_name": "UIInterfaceOrientation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "Int",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIInterfaceOrientation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIInterfaceOrientation",
+                        "printedName": "UIKit.UIInterfaceOrientation",
+                        "usr": "c:@E@UIInterfaceOrientation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIDeviceOrientation",
+        "printedName": "UIDeviceOrientation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIDeviceOrientation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDeviceOrientation",
+                    "printedName": "UIKit.UIDeviceOrientation",
+                    "usr": "c:@E@UIDeviceOrientation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So19UIDeviceOrientationV12TestAppIOSDKE8allCasesSayABGvpZ",
+            "mangledName": "$sSo19UIDeviceOrientationV12TestAppIOSDKE8allCasesSayABGvpZ",
+            "moduleName": "TestAppIOSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIDeviceOrientation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDeviceOrientation",
+                        "printedName": "UIKit.UIDeviceOrientation",
+                        "usr": "c:@E@UIDeviceOrientation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So19UIDeviceOrientationV12TestAppIOSDKE8allCasesSayABGvgZ",
+                "mangledName": "$sSo19UIDeviceOrientationV12TestAppIOSDKE8allCasesSayABGvgZ",
+                "moduleName": "TestAppIOSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIDeviceOrientation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDeviceOrientation",
+                        "printedName": "UIKit.UIDeviceOrientation",
+                        "usr": "c:@E@UIDeviceOrientation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So19UIDeviceOrientationV12TestAppIOSDKE8allCasesSayABGvsZ",
+                "mangledName": "$sSo19UIDeviceOrientationV12TestAppIOSDKE8allCasesSayABGvsZ",
+                "moduleName": "TestAppIOSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So19UIDeviceOrientationV12TestAppIOSDKE8allCasesSayABGvMZ",
+                "mangledName": "$sSo19UIDeviceOrientationV12TestAppIOSDKE8allCasesSayABGvMZ",
+                "moduleName": "TestAppIOSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@UIDeviceOrientation",
+        "moduleName": "UIKit",
+        "objc_name": "UIDeviceOrientation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "Int",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIDeviceOrientation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDeviceOrientation",
+                        "printedName": "UIKit.UIDeviceOrientation",
+                        "usr": "c:@E@UIDeviceOrientation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -2507,6 +3254,13 @@
             "printedName": "_DestructorSafeContainer",
             "usr": "s:s24_DestructorSafeContainerP",
             "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -2966,13 +3720,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -3231,6 +3978,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -3256,13 +4010,6 @@
             "printedName": "CustomReflectable",
             "usr": "s:s17CustomReflectableP",
             "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -5018,6 +5765,41 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Models\/Session.swift",
+      "kind": "Array",
+      "offset": 1302,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Models\/Session.swift",
+      "kind": "Array",
+      "offset": 1366,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Models\/Session.swift",
+      "kind": "Array",
+      "offset": 1418,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Models\/Session.swift",
+      "kind": "Array",
+      "offset": 1492,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Models\/Session.swift",
+      "kind": "Array",
+      "offset": 1564,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/TestAppio.swift",
       "kind": "StringLiteral",
       "offset": 366,
@@ -5027,7 +5809,7 @@
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/TestAppio.swift",
       "kind": "Dictionary",
-      "offset": 1475,
+      "offset": 1393,
       "length": 3,
       "value": "[]"
     },
@@ -5100,6 +5882,69 @@
       "offset": 1317,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/DeviceInfo\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 33,
+      "value": "\"com.testappio.reachabilityQueue\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/DeviceInfo\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2544,
+      "length": 4,
+      "value": "\"2g\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/DeviceInfo\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/DeviceInfo\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2608,
+      "length": 4,
+      "value": "\"4g\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/DeviceInfo\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2640,
+      "length": 4,
+      "value": "\"5g\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/DeviceInfo\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2544,
+      "length": 4,
+      "value": "\"2g\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/DeviceInfo\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 4,
+      "value": "\"3g\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/DeviceInfo\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2608,
+      "length": 4,
+      "value": "\"4g\""
+    },
+    {
+      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/DeviceInfo\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2640,
+      "length": 4,
+      "value": "\"5g\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/ViewControllers\/Onboarding\/OnboardingViewController.swift",
@@ -5247,20 +6092,6 @@
       "offset": 4920,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/SessionStore.swift",
-      "kind": "Array",
-      "offset": 470,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/SessionStore.swift",
-      "kind": "Array",
-      "offset": 490,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/UIComponents\/SnapshotPreviewOverlay.swift",
@@ -5531,14 +6362,14 @@
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Models\/Attachment.swift",
       "kind": "StringLiteral",
-      "offset": 2915,
+      "offset": 2884,
       "length": 24,
       "value": "\"testAppIO.imageLoading\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Models\/Attachment.swift",
       "kind": "Dictionary",
-      "offset": 3011,
+      "offset": 2980,
       "length": 3,
       "value": "[]"
     },
@@ -5818,56 +6649,56 @@
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/API\/API.swift",
       "kind": "Dictionary",
-      "offset": 4953,
+      "offset": 4925,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/API\/API.swift",
       "kind": "Dictionary",
-      "offset": 5000,
+      "offset": 4972,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/API\/API.swift",
       "kind": "StringLiteral",
-      "offset": 5030,
+      "offset": 5002,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/API\/API.swift",
       "kind": "Dictionary",
-      "offset": 5428,
+      "offset": 5400,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/API\/API.swift",
       "kind": "Dictionary",
-      "offset": 5475,
+      "offset": 5447,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/API\/API.swift",
       "kind": "StringLiteral",
-      "offset": 5523,
+      "offset": 5495,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/API\/API.swift",
       "kind": "BooleanLiteral",
-      "offset": 5552,
+      "offset": 5524,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lis\/Projects\/TestAppIOSDK\/TestAppIOSDK\/Environment\/API\/API.swift",
       "kind": "BooleanLiteral",
-      "offset": 6487,
+      "offset": 6459,
       "length": 4,
       "value": "true"
     },
