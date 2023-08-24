@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TestAppIOSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -9,6 +9,7 @@ import CoreGraphics
 import CoreMedia
 import CoreServices
 import CoreTelephony
+import DeveloperToolsSupport
 import FileProvider
 import Foundation
 import Photos
@@ -16,16 +17,14 @@ import PhotosUI
 import ReplayKit
 import Security
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import UserNotifications
 import VideoToolbox
 import _Concurrency
 import _StringProcessing
-extension UIKit.UIDevice.BatteryState : Swift.Codable, Swift.CaseIterable {
-  public static var allCases: [UIKit.UIDevice.BatteryState]
-  public typealias AllCases = [UIKit.UIDevice.BatteryState]
-}
+import _SwiftConcurrencyShims
 extension UIKit.UIInterfaceOrientation : Swift.Codable, Swift.CaseIterable {
   public static var allCases: [UIKit.UIInterfaceOrientation]
   public typealias AllCases = [UIKit.UIInterfaceOrientation]
@@ -34,36 +33,90 @@ extension UIKit.UIDeviceOrientation : Swift.Codable, Swift.CaseIterable {
   public static var allCases: [UIKit.UIDeviceOrientation]
   public typealias AllCases = [UIKit.UIDeviceOrientation]
 }
-public struct Event : Swift.Codable {
-  public init(type: TestAppIOSDK.Event.`Type` = .event, name: Swift.String, parameters: [Swift.String : Swift.String] = [:])
-  public enum `Type` : Swift.String, Swift.Codable {
-    case event
-    case error
+public struct TestAppConfiguration {
+  public init(appToken: Swift.String, environment: TestAppIOSDK.TestAppio.Environmnent = .dev)
+}
+@objc @_hasMissingDesignatedInitializers final public class TestAppio : ObjectiveC.NSObject {
+  public static var bar: TestAppIOSDK.TestAppio.Bar {
+    get
+  }
+  public static var log: TestAppIOSDK.TestAppio.Log {
+    get
+  }
+  public static var user: TestAppIOSDK.TestAppio.User {
+    get
+  }
+  @objc deinit
+}
+extension TestAppIOSDK.TestAppio {
+  public static func setup(scene: UIKit.UIWindowScene? = nil, configuration: TestAppIOSDK.TestAppConfiguration, platform: TestAppIOSDK.TestAppio.Platform = .swift)
+}
+extension UIKit.UIDevice.BatteryState : Swift.Codable, Swift.CaseIterable {
+  public static var allCases: [UIKit.UIDevice.BatteryState]
+  public typealias AllCases = [UIKit.UIDevice.BatteryState]
+}
+extension UIKit.UIControl.State : Swift.Hashable {
+}
+@available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+extension Combine.Publisher {
+  public func combineLatest<Others>(with others: Others) -> Combine.AnyPublisher<[Self.Output], Self.Failure> where Others : Swift.Collection, Self.Failure == Others.Element.Failure, Self.Output == Others.Element.Output, Others.Element : Combine.Publisher
+  public func combineLatest<Other>(with others: Other...) -> Combine.AnyPublisher<[Self.Output], Self.Failure> where Other : Combine.Publisher, Self.Failure == Other.Failure, Self.Output == Other.Output
+}
+@available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+extension Swift.Collection where Self.Element : Combine.Publisher {
+  public func combineLatest() -> Combine.AnyPublisher<[Self.Element.Output], Self.Element.Failure>
+}
+extension TestAppIOSDK.TestAppio {
+  public enum Environmnent : Swift.String, Swift.Codable {
+    case staging, dev, production
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
     }
   }
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
-public struct TestAppConfiguration {
-  public init(appId: Swift.String, apiToken: Swift.String)
-}
-@objc @_hasMissingDesignatedInitializers public class TestAppio : ObjectiveC.NSObject {
-  @objc deinit
+  public enum Platform : Swift.String {
+    case swift
+    case flutter
+    case reactNative
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
 }
 extension TestAppIOSDK.TestAppio {
-  public static func show()
-  public static func hide()
-  public static func setup(scene: UIKit.UIWindowScene, configuration: TestAppIOSDK.TestAppConfiguration)
-  public static func identify(userId: Swift.String, name: Swift.String, email: Swift.String, traits: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Error?) -> ())
-  public static func clearCredentials()
-  public static func log(event: TestAppIOSDK.Event)
+  public struct Log {
+    public struct Event {
+      public init(name: Swift.String, properties: [Swift.String : Swift.String] = [:])
+    }
+    public struct Error {
+      public init(name: Swift.String, properties: [Swift.String : Swift.String] = [:])
+    }
+    public struct Screen {
+      public init(name: Swift.String, properties: [Swift.String : Swift.String] = [:])
+    }
+    public func event(_ event: TestAppIOSDK.TestAppio.Log.Event)
+    public func error(_ error: TestAppIOSDK.TestAppio.Log.Error)
+    public func screen(_ screen: TestAppIOSDK.TestAppio.Log.Screen)
+  }
+  public struct Bar {
+    public func show()
+    public func hide()
+    public func showTutorial()
+  }
+  public struct User {
+    public func identify(userId: Swift.String, name: Swift.String? = nil, email: Swift.String? = nil, imageUrl: Swift.String? = nil, traits: [Swift.String : Swift.String] = [:])
+    public func reset()
+  }
 }
-extension UIKit.UIControl.State : Swift.Hashable {
+extension Foundation.DateFormatter {
+  public static let iso8601DateFormatter: Foundation.DateFormatter
 }
-extension TestAppIOSDK.Event.`Type` : Swift.Equatable {}
-extension TestAppIOSDK.Event.`Type` : Swift.Hashable {}
-extension TestAppIOSDK.Event.`Type` : Swift.RawRepresentable {}
+extension TestAppIOSDK.TestAppio.Environmnent : Swift.Equatable {}
+extension TestAppIOSDK.TestAppio.Environmnent : Swift.Hashable {}
+extension TestAppIOSDK.TestAppio.Environmnent : Swift.RawRepresentable {}
+extension TestAppIOSDK.TestAppio.Platform : Swift.Equatable {}
+extension TestAppIOSDK.TestAppio.Platform : Swift.Hashable {}
+extension TestAppIOSDK.TestAppio.Platform : Swift.RawRepresentable {}
