@@ -29,9 +29,9 @@ Integrate TestApp.io's rich suite of tools directly into your iOS applications. 
 
 TestApp.io SDK bridges your iOS application with the TestApp.io platform, enabling a deeper understanding of user interactions and app behavior. Through the TestApp.io Portal, you can easily monitor sessions, gather feedback, and track activities.
 
-## Step-by-Step Installation <a name="step-install"></a>
+## Step-by-Step Installation <a name="setup"></a>
 
-### 1. Choose an Installation Method:
+### 1. Choose an Installation Method: <a name="installation"></a>
    - **Swift Package Manager**: Use the URL: `https://github.com/testappio/ios-sdk.git`
    - **CocoaPods**: Add to your `Podfile`:
    ```ruby
@@ -39,21 +39,23 @@ TestApp.io SDK bridges your iOS application with the TestApp.io platform, enabli
    ```
    Then run `pod install`.
 
-### 2. Permissions:
+### 2. Permissions: <a name="permissions"></a>
 Add necessary permissions to your app's `Info.plist`:
    - **Photo Library Access**: For screen recordings and images.
-      - `NSPhotoLibraryUsageDescription`
+      - `NSPhotoLibraryUsageDescription` 
+	  > Provide access to save photos and videos in your gallery
       - `NSPhotoLibraryAddUsageDescription`
+	  > Provide access to get photos and videos from your gallery
 
-### 3. Initialization:
+### 3. Initialization: <a name="initialization"></a>
 In your app's launch sequence (usually in `AppDelegate` or `SceneDelegate`), add:
 ```swift
 import TestAppIOSDK
 
 TestAppio.setup(
     configuration: .init(
-        appToken: "YOUR_APP_TOKEN", //from portal.testapp.io -> Your app -> Integrations
-        environment: .YOUR_APP_ENVIRONMENT  // This reflects your app's environment, not TestApp.io's
+        appToken: "YOUR_APP_TOKEN", //from portal.testapp.io -> Your app -> Integrations -> Sessions (SDK)
+        environment: .dev  // [.dev, .staging, .production] This reflects your app's environment, not TestApp.io's
     )
 )
 ```
@@ -84,7 +86,7 @@ Personalize user experience and accurately track interactions by identifying use
 #### Parameters
 | Parameter   | Description                              | Type      | Example Value                   | Constraints                                     |
 |-------------|------------------------------------------|-----------|---------------------------------|-------------------------------------------------|
-| `userId`    | Unique identifier for the user in your database (optional)        | `String`  | `U123456`                       | Length: 0-120 characters                         |
+| `userId`    | Unique identifier for the user in your database (required)        | `String`  | `U123456`                       | Length: 0-120 characters                         |
 | `name`      | Name of a user (optional)                   | `String`  | `Jane Doe`                      | Length: 0-120 characters                         |
 | `email`     | Email address of a user (optional)                  | `String`  | `jane.doe@example.com`          | Length: 0-255 characters                         |
 | `imageUrl`  | URL to an avatar image for the user (optional)       | `String`  | `https://url/to/sample-image.png` | Length: max 255 characters                      |
@@ -92,9 +94,9 @@ Personalize user experience and accurately track interactions by identifying use
 
 ```swift
 TestAppio.user.identify(
-    userId: "U123456",
-    name: "Jane Doe",
-    email: "jane.doe@example.com",
+    userId: "U123456", //required
+    name: "Jane Doe", //optional
+    email: "jane.doe@example.com", //optional
     imageUrl: "https://url/to/sample-image.png", //optional
     traits: [  //optional
         "age": "30",
@@ -153,16 +155,6 @@ TestAppio.log.screen(.init(
     parameters: ["access": "logged-in"] //optional
 ))
 ```
-
-### UI Interactions:
-
-Control the feedback bar
-```swift
-TestAppio.bar.show()
-TestAppio.bar.hide()
-```
-
-These lines of code show and hide the TestApp.io feedback bar.
 
 ## User Reset
 
@@ -273,6 +265,8 @@ At TestApp.io, we deeply respect the privacy of our users and their end-users. H
 - **Compliance**: We strive to ensure that our data collection and storage practices comply with international privacy regulations, including GDPR, CCPA, and others.
 
 If you have any concerns or questions about privacy, please reach out to our team at [support@testapp.io](mailto:support@testapp.io).
+
+---
 
 ### Feedback & Support <a name="feedback-support"></a>
 
