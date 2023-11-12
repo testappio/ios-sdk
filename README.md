@@ -31,6 +31,17 @@ TestApp.io SDK bridges your iOS application with the TestApp.io platform, enabli
 
 ## Step-by-Step Installation <a name="setup"></a>
 
+**Minimum iOS deployment target is iOS 13.0**
+
+To ensure proper functionality of the TestApp.io SDK on iOS, your project's minimum iOS deployment target should be set to iOS **13.0** or higher. This is due to specific features and capabilities used by the SDK that are available from iOS 13 onwards.
+
+To set the iOS deployment target, follow these steps:
+
+1. Open your project in Xcode.
+2. Navigate to the project's target settings.
+3. Under `General`, find the or `Minimum Deployments` or `Deployment Info`section.
+4. Set the `Target` field to iOS 13.0 or higher.
+
 ### 1. Choose an Installation Method: <a name="installation"></a>
    - **Swift Package Manager**: Use the URL: `https://github.com/testappio/ios-sdk.git`
    - **CocoaPods**: Add to your `Podfile`:
