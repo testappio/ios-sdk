@@ -71,6 +71,8 @@ TestAppio.setup(
 )
 ```
 
+Collect your App Token from [App -> Integrations -> Sessions (SDK)](https://portal.testapp.io/apps?to=app-integrations&tab=sessions)
+
 ## Updating the SDK <a name="update-sdk"></a>
 To ensure you're benefiting from the latest features and optimizations, regularly update the TestApp.io SDK:
 
