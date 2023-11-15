@@ -2,7 +2,6 @@
 
 # TestApp.io SDK for iOS Swift
 
-
 Integrate TestApp.io's rich suite of tools directly into your iOS applications. Capture feedback, monitor performance, and log crucial events with minimal effort.
 
 ## Table of Contents
@@ -23,7 +22,6 @@ Integrate TestApp.io's rich suite of tools directly into your iOS applications. 
 7. [FAQ & Additional Information](#faq)
 8. [Privacy](#privacy)
 9. [Feedback & Support](#feedback-support)
-10. [License](#license)
 
 ## Overview <a name="overview"></a>
 
@@ -290,8 +288,3 @@ Join our [community](https://help.testapp.io/faq/join-our-community/) for feedba
 Check out our [Help Center](https://help.testapp.io/) for more info and other integrations.
 
 Happy Testing 🎉
-
-###  License <a name="license"></a>
-Copyright (C) 2023 Testapp.io Permission is hereby granted to use this framework as is, modification are not allowed. All rights reserved.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
