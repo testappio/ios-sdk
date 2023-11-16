@@ -34,7 +34,10 @@ extension UIKit.UIDeviceOrientation : Swift.Codable, Swift.CaseIterable {
   public typealias AllCases = [UIKit.UIDeviceOrientation]
 }
 public struct TestAppConfiguration {
-  public init(appToken: Swift.String, environment: TestAppIOSDK.TestAppio.Environmnent = .dev)
+  public let appToken: Swift.String
+  public let environment: TestAppIOSDK.TestAppio.Environmnent
+  public let sdk: TestAppIOSDK.SDK
+  public init(appToken: Swift.String, environment: TestAppIOSDK.TestAppio.Environmnent = .dev, sdk: TestAppIOSDK.SDK? = nil)
 }
 @objc @_hasMissingDesignatedInitializers final public class TestAppio : ObjectiveC.NSObject {
   public static var bar: TestAppIOSDK.TestAppio.Bar {
@@ -49,7 +52,7 @@ public struct TestAppConfiguration {
   @objc deinit
 }
 extension TestAppIOSDK.TestAppio {
-  public static func setup(scene: UIKit.UIWindowScene? = nil, configuration: TestAppIOSDK.TestAppConfiguration, platform: TestAppIOSDK.TestAppio.Platform = .swift)
+  public static func setup(scene: UIKit.UIWindowScene? = nil, configuration: TestAppIOSDK.TestAppConfiguration)
 }
 extension UIKit.UIDevice.BatteryState : Swift.Codable, Swift.CaseIterable {
   public static var allCases: [UIKit.UIDevice.BatteryState]
@@ -68,14 +71,17 @@ extension Swift.Collection where Self.Element : Combine.Publisher {
 }
 extension TestAppIOSDK.TestAppio {
   public enum Environmnent : Swift.String, Swift.Codable {
-    case staging, dev, production
+    case dev, staging, production
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
     }
   }
-  public enum Platform : Swift.String {
+}
+public struct SDK : Swift.Codable, Swift.Equatable {
+  public init(name: Swift.String = "Unknown", version: Swift.String = "Unknown", versionCode: Swift.String = "Unknown")
+  public enum platform : Swift.String {
     case swift
     case flutter
     case reactNative
@@ -85,6 +91,9 @@ extension TestAppIOSDK.TestAppio {
       get
     }
   }
+  public static func == (a: TestAppIOSDK.SDK, b: TestAppIOSDK.SDK) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension TestAppIOSDK.TestAppio {
   public struct Log {
@@ -117,6 +126,6 @@ extension Foundation.DateFormatter {
 extension TestAppIOSDK.TestAppio.Environmnent : Swift.Equatable {}
 extension TestAppIOSDK.TestAppio.Environmnent : Swift.Hashable {}
 extension TestAppIOSDK.TestAppio.Environmnent : Swift.RawRepresentable {}
-extension TestAppIOSDK.TestAppio.Platform : Swift.Equatable {}
-extension TestAppIOSDK.TestAppio.Platform : Swift.Hashable {}
-extension TestAppIOSDK.TestAppio.Platform : Swift.RawRepresentable {}
+extension TestAppIOSDK.SDK.platform : Swift.Equatable {}
+extension TestAppIOSDK.SDK.platform : Swift.Hashable {}
+extension TestAppIOSDK.SDK.platform : Swift.RawRepresentable {}

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Bg5631PLf6rIk1crqA8HIJ7i4d0=
+		agm6maCb4oM9Kgi0jIMpcMv8nuU=
 		</data>
 		<key>Headers/TestAppIOSDK-Swift.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hvwpCYBmo39rAeiGy+qHzXc6dEE=
+		DJp4FSsGrekhgpIdUC/d2PwkJqs=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		y/t5Pp0sGDdextkvQt8B1HGPMxs=
+		hSmWsoszGXxbcwIPvvFaJMnS4wE=
 		</data>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		F9Rmrg0rRLZLN6bLORWl7rbAs8A=
+		F0BHCdb+0gRXVAPIqsS5svJZvpk=
 		</data>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		F9Rmrg0rRLZLN6bLORWl7rbAs8A=
+		F0BHCdb+0gRXVAPIqsS5svJZvpk=
 		</data>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		SIsKIT712paKkz+WRwwxk/Zlxe8=
+		DqeB0VrXXcxanfOPJ7lIj5+uE6g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K/g2DngpgBoPhZjpBzpROco11HeEnIDq3Iu6x6SWGAA=
+			KglB8m13bQuhkJGNeFVSr0j/4Llf+UqoqcuBHz4HT0s=
 			</data>
 		</dict>
 		<key>Headers/TestAppIOSDK-Swift.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ge/53tESpMZIRLcmha2D6AXHYY88yiu2+ifj5VTqvic=
+			+zMyapm6g2SK0oGbvK1OM2vMv7fT0A0++jfgSt9wjKE=
 			</data>
 		</dict>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xmo7muX0Oe0WaG71cEynjeYivsuVuyffWfsiE/MpmU4=
+			N3DScZJYbGEZOMTA8MO58+HWQ/uZLo/jR/hLKXH5Vms=
 			</data>
 		</dict>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xmo7muX0Oe0WaG71cEynjeYivsuVuyffWfsiE/MpmU4=
+			N3DScZJYbGEZOMTA8MO58+HWQ/uZLo/jR/hLKXH5Vms=
 			</data>
 		</dict>
 		<key>Modules/TestAppIOSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N/cxJaOlNh+kH04yM6qi28acyPMCcD4O8yTLMhxWkrA=
+			fJdXOCQt8M/JySJIhK7aiLGp8WglhLp2ClklfZnWa10=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

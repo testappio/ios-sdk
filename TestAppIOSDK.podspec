@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "TestAppIOSDK"
-  spec.version            = "2.0.0"
+  spec.version            = "2.0.1"
   spec.summary            = "A feedback gathering and bug reporting SDK for testapp.io platform"
   spec.description        = "All in one packaged integrated solution to gather feedback and report bugs during application testing."
   spec.homepage           = "https://testapp.io"
